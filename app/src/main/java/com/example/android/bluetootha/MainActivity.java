@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     ListView lvNewDevices;
 
 
-    // Create a BroadcastReceiver for ACTION_FOUND
+    // Create a BroadcastReceiver for ACTION_FOUND(bluetooth)
     private final BroadcastReceiver mBroadcastReceiver1 = new BroadcastReceiver() {
         public void onReceive(Context context, Intent intent) {
             String action = intent.getAction();
